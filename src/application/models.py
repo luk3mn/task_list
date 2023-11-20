@@ -1,5 +1,5 @@
 from datetime import datetime
-from ext.database import db
+from ..ext.database import db
 
 class Todo(db.Model):
     __tablename__ = 'todo'

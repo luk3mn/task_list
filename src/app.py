@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect
-from ext import configuration
-from ext import database
-from application.controllers import TodoController
+from .ext import configuration
+from .ext import database
+from .application.controllers import TodoController
 
 app = Flask(__name__)
 configuration.init_app(app)
