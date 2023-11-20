@@ -1,5 +1,5 @@
 alembic==1.12.1
-astroid==3.0.1
+astroid==2.15.8
 blinker==1.6.3
 click==8.1.7
 dill==0.3.7
